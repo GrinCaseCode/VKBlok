@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNorms-Light.eot');
+	src: url('../fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Light.woff') format('woff'),
+	url('../fonts/TTNorms-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNorms-Regular.eot');
+	src: url('../fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Regular.woff') format('woff'),
+	url('../fonts/TTNorms-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNorms-Medium.eot');
+	src: url('../fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Medium.woff') format('woff'),
+	url('../fonts/TTNorms-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNorms-Bold.eot');
+	src: url('../fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Bold.woff') format('woff'),
+	url('../fonts/TTNorms-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+   font-family: 'TTNorms';
+    src: url('../fonts/TTNorms-ExtraBold.eot');
+    src: url('../fonts/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-ExtraBold.woff') format('woff'),
+    url('../fonts/TTNorms-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    }
+@font-face {
+	font-family: 'TTNorms';
+	src: url('../fonts/TTNorms-Black.eot');
+	src: url('../fonts/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/TTNorms-Black.woff') format('woff'),
+	url('../fonts/TTNorms-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

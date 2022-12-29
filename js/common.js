@@ -1,5 +1,43 @@
 $(document).ready(function() {
 
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.header').outerHeight();
+
+$(window).scroll(function(event){
+	didScroll = true;
+});
+ 
+setInterval(function() {
+	if (didScroll) {
+		hasScrolled();
+		didScroll = false;
+	}
+}, 250);
+
+function hasScrolled() {
+	var st = $(this).scrollTop();
+
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+    	return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('.header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+        	$('.header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
 
 //прилипающие меню
 var $menu = $(".header");
@@ -23,12 +61,12 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 
 	//кнопка sandwich
-	$(".btn_nav").click(function() {
-		$(".sandwich").toggleClass("active");
-		if ($(".menu").is(":hidden")) {
-			$(".menu").slideDown(200);
+	$(".btn-menu").click(function() {
+		$(this).find(".sandwich").toggleClass("active");
+		if ($(".menu-mobile").is(":hidden")) {
+			$(".menu-mobile").slideDown(200);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu-mobile").slideUp(200);
 		}
 		
 	});
@@ -37,7 +75,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	//слайдер
 
 	$('.slider-billbord').slick({
-		arrows: true,
+		arrows: false,
 		dots: true,
 		infinite: true,
 		touchThreshold: 1000,
@@ -72,8 +110,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 992,
 			settings: {
-				variableWidth: true,
-				arrows: false
+				
 			}
 		}
 		]
@@ -96,7 +133,34 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 992,
 			settings: {
-				
+				verticalSwiping: false,
+		vertical: false,
+			}
+		}
+		]
+	});
+
+
+	$('.slider-clients').slick({
+		arrows: true,
+		dots: true,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 5,
+		slidesToScroll: 2,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 2,
 			}
 		}
 		]
@@ -118,6 +182,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	}); 
 
+
+{
+		if ($(window).width() < 992) { 
+			$(".footer__title").click(function() {
+				$(this).toggleClass("active");
+				$(this).next(".footer__content").slideToggle(200);
+			});
+		}
+	}
 
 $(".lead-video").modalVideo();
 
