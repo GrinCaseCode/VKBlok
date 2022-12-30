@@ -140,6 +140,9 @@ form {
 	margin-top: 3px;
 	display: block;
 }
+.location-main {
+	position: relative;
+}
 .location-main strong {
 	font-size: 16px;
 	font-weight: 500;
@@ -155,7 +158,31 @@ form {
 	color: #2BA84A;
 	position: absolute;
 	top: 2px;
+	transition: all 0.3s;
 	left: 0;
+}
+.location-main__dropdown {
+	top: 100%;
+	padding: 25px;
+	padding-top: 0;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	background-color: #fff;
+	transition: all 0.1s;
+}
+.location-main:hover .location-main__dropdown {
+	visibility: visible;
+	opacity: 1;
+}
+.location-main:hover .location-main__value i {
+	transform: rotate(180deg);
+}
+.location-main__dropdown a {
+	color: #040F0F;
+}
+.location-main__dropdown a:hover {
+	color: #2BA84A;	
 }
 .header__left .location-main {
 	margin-left: 53px;
@@ -1084,6 +1111,9 @@ top: 7px;
 	color: #fff !important;
 	transition: all 0.3s;
 }
+.slick-arrow:hover {
+	background-color: #248232;
+}
 .slick-arrow::before {
 	display: none;
 }
@@ -1372,7 +1402,7 @@ top: 7px;
 .item-news .title-small {
 	display: block;
 }
-.col-lg-6 .title-small {
+.item-news .col-lg-6 .title-small {
 	font-size: 24px;
 	line-height: 34px;
 	max-width: 402px;
@@ -1535,4 +1565,176 @@ top: 7px;
 }
 .consultation__right .block-form .title-small {
 	padding-bottom: 9px;
+}
+.page-contacts {
+	padding-top: 14px;
+}
+.page-contacts .title-section {
+	padding-bottom: 25px;
+	text-align: center;
+}
+.header_page .header-bottom {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.page-contacts {
+	padding-bottom: 40px;
+}
+.contacts-main {
+	margin-bottom: 27px;
+background: #EBF2FA;
+}
+.contacts-main__title {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.unit-contacts {
+	padding: 25px;
+	padding-top: 34px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.unit-contacts {
+border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.unit-contacts strong {
+	font-weight: 500;
+}
+.unit-contacts p a {
+	color: #040F0F;
+}
+.map-contacts {
+	height: 330px;
+	width: 100%;
+	margin-top: auto;
+	background-color: #fff;
+}
+.row_null {
+	margin: 0;
+}
+.row_null > div {
+	padding: 0;
+}
+.row > div:last-child .unit-contacts {
+	border: none;
+}
+.title-contact {
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 9px;
+	font-weight: 700;
+	color: #248232;
+}
+.text-contacts strong {
+	font-weight: 500;
+}
+.text-contacts p a {
+	color: #040F0F;
+}
+.text-contacts {
+	line-height: 26px;
+}
+.contact-content {
+	padding: 27px 47px;
+	background: #F9F9F9;
+	margin-bottom: 33px;
+}
+.contact-content .title-small {
+	margin-bottom: 20px;
+	color: #2BA84A;
+}
+.item-dropdown {
+	margin-bottom: 17px;
+	background: #F9F9F9;
+}
+.item-dropdown__head {
+	padding: 25px;
+	padding-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.item-dropdown .title-small {
+	color: #2BA84A;
+}
+.item-dropdown__arrow {
+		width: 40px;
+	height: 40px;
+	font-size: 14px;
+	background: #484F59;
+	padding-top: 2px;
+	border: 1px solid #FFFFFF;
+	flex: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+.item-dropdown.active .item-dropdown__arrow {
+	transform: rotate(180deg);
+}
+.item-dropdown__content {
+	padding: 30px 22px;
+	padding-left: 40px;
+	padding-top: 0;
+	display: none;
+}
+.page-news {
+	padding-top: 29px;
+	padding-bottom: 47px;
+}
+.pager {
+	margin-top: 35px;
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.page-numbers {
+	font-size: 15px;
+	line-height: 21px;
+	color: #000;
+	font-weight: 500;
+	margin: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page-numbers.current,
+.page-numbers:hover {
+	color: #248232;
+}
+.prev.page-numbers,
+.next.page-numbers {
+	width: 40px;
+	height: 40px;
+background: #484F59;
+border: 1px solid #FFFFFF;
+color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	font-size: 12px;
+	top: 0;
+	margin: 0;
+}
+.prev.page-numbers {
+	left: 0;
+}
+.next.page-numbers {
+	right: 0;
+}
+.prev.page-numbers:hover,
+.next.page-numbers:hover {
+	background-color: #248232;
 }

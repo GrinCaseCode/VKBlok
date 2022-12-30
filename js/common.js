@@ -71,6 +71,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	});
 
+$(".item-dropdown__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-dropdown").removeClass("active");
+		$(this).parent().siblings(".item-dropdown").find(".item-dropdown__content").slideUp(200);
+	});
+
+$(".menu-mobile .location-main__value").click(function() {
+	$(this).toggleClass("active");
+		$(".menu-mobile .location-main__dropdown").slideToggle(200);
+			});
+
 
 	//слайдер
 
