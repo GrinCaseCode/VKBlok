@@ -106,6 +106,14 @@ $(".menu-mobile .location-main__value").click(function() {
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				swipe: false
+			}
+		}
+		]
 	});
 
 	$('.slider-for').slick({
@@ -114,6 +122,7 @@ $(".menu-mobile .location-main__value").click(function() {
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		swipe: false,
 		asNavFor: '.slider-nav',
 		touchThreshold: 1000,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
@@ -122,7 +131,7 @@ $(".menu-mobile .location-main__value").click(function() {
 		{
 			breakpoint: 992,
 			settings: {
-				
+				swipe: true
 			}
 		}
 		]
@@ -147,6 +156,7 @@ $(".menu-mobile .location-main__value").click(function() {
 			settings: {
 				verticalSwiping: false,
 		vertical: false,
+
 			}
 		}
 		]

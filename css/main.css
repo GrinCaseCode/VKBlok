@@ -411,7 +411,7 @@ form {
 	opacity: 0;
 }
 .sandwich.active .sw-footer {
-top: 7px;
+	top: 7px;
 	width: 22px;
 	transform: rotate(-45deg); 
 }
@@ -1581,7 +1581,7 @@ top: 7px;
 }
 .contacts-main {
 	margin-bottom: 27px;
-background: #EBF2FA;
+	background: #EBF2FA;
 }
 .contacts-main__title {
 	font-size: 20px;
@@ -1599,7 +1599,7 @@ background: #EBF2FA;
 	align-items: flex-start;
 }
 .unit-contacts {
-border-right: 1px solid rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .unit-contacts strong {
 	font-weight: 500;
@@ -1663,7 +1663,7 @@ border-right: 1px solid rgba(0, 0, 0, 0.2);
 	color: #2BA84A;
 }
 .item-dropdown__arrow {
-		width: 40px;
+	width: 40px;
 	height: 40px;
 	font-size: 14px;
 	background: #484F59;
@@ -1716,9 +1716,9 @@ border-right: 1px solid rgba(0, 0, 0, 0.2);
 .next.page-numbers {
 	width: 40px;
 	height: 40px;
-background: #484F59;
-border: 1px solid #FFFFFF;
-color: #fff;
+	background: #484F59;
+	border: 1px solid #FFFFFF;
+	color: #fff;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;

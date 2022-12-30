@@ -587,27 +587,27 @@
 		font-size: 9px;
 	}
 	.contacts-main__title {
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 14px;
-}
-.unit-contacts {
-    padding: 20px;
-    padding-top: 25px;
-    }
-    .title-contact {
-    font-size: 22px;
-    line-height: 32px;
-}
-.contact-content {
-    padding: 20px 25px;
-    }
-    .item-dropdown__content {
-    	padding-left: 25px;
-    }
-    .item-dropdown__head {
-    	padding-left: 25px;
-    }
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 14px;
+	}
+	.unit-contacts {
+		padding: 20px;
+		padding-top: 25px;
+	}
+	.title-contact {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.contact-content {
+		padding: 20px 25px;
+	}
+	.item-dropdown__content {
+		padding-left: 25px;
+	}
+	.item-dropdown__head {
+		padding-left: 25px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -868,27 +868,27 @@
 	}
 	.unit-contacts {
 		border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-.contact-content {
-	margin-bottom: 25px;
-}
-.menu-mobile .location-main__dropdown {
-	position: relative;
-	top: 0;
-	visibility: visible;
-	opacity: 1;
-	transition: inherit;
-	padding: 0;
-	padding-left: 15px;
-	display: none;
-}
-.location-main:hover .location-main__value i {
-	transform: rotate(0deg);
-}
-.location-main__value.active i {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	.contact-content {
+		margin-bottom: 25px;
+	}
+	.menu-mobile .location-main__dropdown {
+		position: relative;
+		top: 0;
+		visibility: visible;
+		opacity: 1;
+		transition: inherit;
+		padding: 0;
+		padding-left: 15px;
+		display: none;
+	}
+	.location-main:hover .location-main__value i {
+		transform: rotate(0deg);
+	}
+	.location-main__value.active i {
 		transform: rotate(180deg) !important;
-}
+	}
 }
 
 /* Small Devices, Tablets */
@@ -920,10 +920,30 @@
 		white-space: nowrap;
 		overflow: auto;
 		margin-right: -15px;
+		background-color: transparent;
+		padding-bottom: 5px;
 	}
 	.tabs a {
 		font-size: 14px;
 		padding: 0 20px;
+		background: #2BA84A;
+	}
+	.tabs::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.tabs::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.tabs::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.tabs::-webkit-scrollbar-thumb {
+		background-color: #ccc;
+		border-radius: 10px;
+	}
+	.tabs::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #000;
 	}
 	.title-min {
 		font-size: 16px;
@@ -1018,35 +1038,38 @@
 		height: 300px;
 	}
 	.page-contacts .title-section {
-    padding-bottom: 16px;
-}
-.title-contact {
-    font-size: 18px;
-    line-height: 30px;
-}
-.text-contacts {
-    line-height: 23px;
-}
-.item-dropdown__head {
-	padding: 15px;
-}
-.item-dropdown__content {
-	padding: 15px;
-	padding-top: 0;
-}
-.page-contacts {
-    padding-bottom: 30px;
-}
-.row_news > div {
-    margin-top: 20px;
-}
-.page-news {
-    padding-top: 24px;
-    padding-bottom: 35px;
-}
-.pager {
-    margin-top: 26px;
-}
+		padding-bottom: 16px;
+	}
+	.title-contact {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.text-contacts {
+		line-height: 23px;
+	}
+	.item-dropdown__head {
+		padding: 15px;
+	}
+	.item-dropdown__content {
+		padding: 15px;
+		padding-top: 0;
+	}
+	.page-contacts {
+		padding-bottom: 30px;
+	}
+	.row_news > div {
+		margin-top: 20px;
+	}
+	.page-news {
+		padding-top: 24px;
+		padding-bottom: 35px;
+	}
+	.pager {
+		margin-top: 26px;
+	}
+	.portfolio-block .tabs {
+		margin-left: 15px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1072,7 +1095,7 @@
 		min-height: 460px;
 	}
 	.content-billbord {
-		min-height: 335px;
+		min-height: 350px;
 	}
 	.text-billbord {
 		padding-bottom: 14px;
