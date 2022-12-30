@@ -159,7 +159,7 @@ form {
 	position: absolute;
 	top: 2px;
 	transition: all 0.3s;
-	left: 0;
+	left: 0; 
 } 
 .location-main__dropdown {
 	top: 100%;
