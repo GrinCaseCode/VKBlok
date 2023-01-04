@@ -223,8 +223,12 @@
 	.article-content h1 {
 		margin-bottom: 11px;
 	}
-	.article-content h3, .article-content .title-small {
+	.article-content h3, 
+	.article-content .title-small {
 		margin-bottom: 15px;
+	}
+	.article-content sup {
+		font-size: 9px;
 	}
 }
 @media only screen and (max-width : 1300px) {

@@ -1744,6 +1744,8 @@ form {
 .article-billbord {
 	padding-top: 62px;
 	min-height: 400px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-bottom: 22px;
 	color: #fff;
 	position: relative;
