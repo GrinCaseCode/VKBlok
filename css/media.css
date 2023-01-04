@@ -112,6 +112,7 @@
 		height: 90px;
 		margin-right: 20px;
 	}
+	.article-content h3,
 	.title-small {
 		font-size: 18px;
 		line-height: 26px;
@@ -202,6 +203,29 @@
 	.header.nav-up {
 		transform: translateY(-138px);
 	}
+	.article {
+		padding-top: 45px;
+	}
+	.article-billbord {
+		padding-top: 45px;
+		min-height: 355px;
+	}
+	.article-billbord .breadcrumbs {
+		margin-bottom: 50px;
+	}
+	.article-content h2 {
+		font-size: 30px;
+		line-height: 43px;
+	}
+	.list-article li {
+		margin-bottom: 11px;
+	}
+	.article-content h1 {
+		margin-bottom: 11px;
+	}
+	.article-content h3, .article-content .title-small {
+		margin-bottom: 15px;
+	}
 }
 @media only screen and (max-width : 1300px) {
 	body {
@@ -258,6 +282,7 @@
 	.calculator-block {
 		padding: 30px 30px;
 	}
+	.article-content h1,
 	.title-section {
 		font-size: 36px;
 		line-height: 50px;
@@ -279,6 +304,7 @@
 		height: 75px;
 		margin-right: 15px;
 	}
+	.article-content h3,
 	.title-small {
 		font-size: 17px;
 		line-height: 25px;
@@ -337,6 +363,22 @@
 	}
 	.header.nav-up {
 		transform: translateY(-124px);
+	}
+	.article-billbord .title-section {
+		max-width: 890px;
+	}
+	.article-billbord {
+		min-height: 320px;
+	}
+	.article-content h2 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.list-article li {
+		margin-bottom: 0;
+	}
+	.article-content sup {
+		font-size: 8px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -471,6 +513,7 @@
 	.item-catalog__bottom {
 		padding-top: 10px;
 	}
+	.article-content h1,
 	.title-section {
 		font-size: 30px;
 		line-height: 41px;
@@ -500,6 +543,7 @@
 		padding: 30px 9px;
 		padding-left: 5px;
 	}
+	.article-content h3,
 	.title-small {
 		font-size: 16px;
 		line-height: 22px;
@@ -583,6 +627,7 @@
 		font-size: 16px;
 		line-height: 23px;
 	}
+	.article-content h3 sup,
 	.title-small sup {
 		font-size: 9px;
 	}
@@ -607,6 +652,26 @@
 	}
 	.item-dropdown__head {
 		padding-left: 25px;
+	}
+	.article-billbord .title-section {
+		max-width: 720px;
+	}
+	.article-billbord .breadcrumbs {
+		margin-bottom: 35px;
+	}
+	.article-billbord {
+		min-height: 265px;
+		padding-top: 25px;
+	}
+	.article-content h2 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.article-content ol, .article-content ul, .article-content p {
+		margin-bottom: 15px;
+	}
+	.article {
+		padding-top: 35px;
 	}
 }
 
@@ -889,6 +954,28 @@
 	.location-main__value.active i {
 		transform: rotate(180deg) !important;
 	}
+	.article {
+		padding-top: 20px;
+	}
+	.article-billbord .breadcrumbs {
+		margin-bottom: 25px;
+	}
+	.article-billbord {
+		min-height: 225px;
+	}
+	.article-content h2 {
+		font-size: 23px;
+		line-height: 29px;
+	}
+	.row_images {
+		margin: 0 -5px;
+	}
+	.row_images > div {
+		padding: 0 5px;
+	}
+	.delivery {
+		padding-top: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -968,6 +1055,7 @@
 	.row_advantages > div:nth-child(odd) .item-advantage {
 		background: #F9F9F9;
 	}
+	.article-content h1,
 	.title-section {
 		font-size: 25px;
 		line-height: 34px;
@@ -1070,8 +1158,32 @@
 	.portfolio-block .tabs {
 		margin-left: 15px;
 	}
+	.article-billbord {
+		margin: 0 -15px;
+		margin-bottom: 20px;
+	}
+	.article {
+		padding-top: 0;
+		padding-bottom: 25px;
+	}
+	.article-billbord .breadcrumbs {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.article-content h2 {
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 13px;
+	}
+	.article-content img {
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+	.article-billbord .title-section {
+		padding: 0 15px;
+	}
 }
- 
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.title-billbord {
@@ -1103,7 +1215,7 @@
 	.benefits-block {
 		padding: 0 15px;
 	}
-	.calculator-wrapper {
+	.calculator-wrapper { 
 		border: none;
 		padding: 0;
 	}
@@ -1161,10 +1273,21 @@
 		font-size: 20px;
 		line-height: 29px;
 	}
-	.contacts-block {
+	.contacts-block { 
 		margin: 0 -15px;
 		width: initial;
 		max-width: initial;
+	}
+	.article-billbord {
+		padding-top: 15px;
+	}
+	.article-billbord .title-section {
+		font-size: 23px;
+		line-height: 31px;
+	}
+	.article-content h2 {
+		font-size: 18px;
+		line-height: 24px;
 	}
 }
 

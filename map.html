@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head> 
+<body>
+
+	<div class="wrapper">
+		<div class="count_pages">
+			<ul> 
+				<li><a href="index.html" target="_blanck">index</a></li>
+				<li><a href="contacts.html" target="_blanck">contacts</a></li>
+				<li><a href="news.html" target="_blanck">news</a></li>
+				<li><a href="article.html" target="_blanck">article</a></li>
+			</ul>
+		</div> 
+	</div>
+
+	<style>
+		.count_pages a:before {
+			counter-increment: list1;
+			content: counter(list1) ". ";
+		}
+		.count_pages li {
+			list-style: none;
+			margin-bottom: 0px;
+			border: 1px solid #ccc;
+			border-top: none;
+			width: 100%;
+		}
+		.count_pages {
+			margin: 0;
+			width: 400px;
+			margin: auto;
+			font-family: sans-serif;
+			margin-top: 40px;
+			max-width: 100%;
+			border-top: 1px solid #ccc;
+			counter-reset: list1;
+			margin-bottom: 40px;
+		}
+		.count_pages ul {
+			margin: 0;
+			padding: 0;
+		}
+		.count_pages a {
+			font-size: 18px;
+			color: #15669F;
+			text-decoration: none;
+			display: block;
+			padding: 6px 10px;
+		}
+	</style>
+</body>
+</html>
