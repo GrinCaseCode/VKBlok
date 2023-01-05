@@ -110,7 +110,6 @@ form {
 .header.nav-down {
 	transform: translateY(0px);
 }
-
 .header-top {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -344,6 +343,7 @@ form {
 	color: #000;
 	display: inline-flex;
 	align-items: center;
+	cursor: pointer;
 }
 .btn-catalog__title {
 	margin-left: 20px;
@@ -673,7 +673,6 @@ form {
 	flex-direction: column;
 	align-items: flex-start;
 }
-
 .item-catalog__image {
 	height: 201px;
 	display: flex;
@@ -1877,4 +1876,4 @@ form {
 .delivery {
 	padding-top: 40px;
 	padding-bottom: 30px;
-} 
+}
