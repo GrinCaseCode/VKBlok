@@ -230,7 +230,13 @@
 	.article-content sup {
 		font-size: 9px;
 	}
+	.col-lg-6 .item-news .title-small {
+		font-size: 22px;
+		line-height: 31px;
+		max-width: 390px;
+	}
 }
+
 @media only screen and (max-width : 1300px) {
 	body {
 		font-size: 14px;
@@ -383,6 +389,11 @@
 	}
 	.article-content sup {
 		font-size: 8px;
+	}
+	.col-lg-6 .item-news .title-small {
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 360px;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -676,6 +687,11 @@
 	}
 	.article {
 		padding-top: 35px;
+	}
+	.col-lg-6 .item-news .title-small {
+		font-size: 18px;
+		line-height: 25px;
+		max-width: 330px;
 	}
 }
 
