@@ -2209,3 +2209,9 @@ align-items: center;
 .delivery {
 	padding-bottom: 64px;
 }
+.title-middle {
+	font-size: 32px;
+	line-height: 45px;
+	padding-bottom: 15px;
+	font-weight: 500;
+}
