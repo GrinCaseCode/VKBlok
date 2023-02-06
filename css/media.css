@@ -9,7 +9,7 @@
 	}
 	.location-main strong {
 		font-size: 15px;
-	}
+	} 
 	.header {
 		font-size: 13px;
 	}
@@ -668,6 +668,7 @@
 	}
 }
 
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.social-title {
@@ -1086,6 +1087,8 @@
 		min-width: 50%;
 	}
 }
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -1508,7 +1511,12 @@
 	.card-block > .row > div:last-child {
 		padding-left: 15px;
 	}
+	.card-info img {
+		margin-top: 10px;
+	}
 }
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -1782,6 +1790,8 @@
 	}
 }
 
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.title-billbord {
@@ -1910,8 +1920,91 @@
 	.wrapper-map {
 		padding: 0;
 	}
-
+	.partnership-block {
+		padding: 20px 25px;
+		padding-bottom: 30px;
+	}
+	.partnership-block__head img {
+		max-width: 35px;
+	}
+	.partnership-block__head {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.callback-block {
+		font-size: 20px;
+		line-height: 29px;
+		padding: 25px 15px;
+	}
+	.item-portfolio__image {
+		height: 230px;
+	}
+	.regions-about__image {
+		margin-bottom: -20px;
+		margin-right: -20px;
+	}
+	.regions-about .title-block {
+		font-size: 17px;
+		line-height: 27px;
+	}
+	.wrapper-about-main {
+		padding-top: 20px;
+	}
+	.about-main .row > div:first-child {
+		padding: 20px 35px;
+	}
+	.about-main {
+		margin-bottom: 20px;
+	}
+	.plans-about {
+		padding-top: 25px;
+		padding-bottom: 48px;
+	}
+	#tab_about6 .billbord-about {
+		margin-bottom: 25px;
+	}
+	.about-block .title-small {
+		padding-bottom: 10px;
+		padding-top: 6px;
+	}
+	.about-block {
+		padding: 24px 20px;
+		padding-bottom: 29px;
+	}
+	.item-material {
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.name-form {
+		font-size: 25px;
+		line-height: 37px;
+	}
+	.card-block {
+		padding: 15px;
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+	}
+	.image-card {
+		height: 280px;
+	}
+	.card-block .feature span {
+		min-width: 44%;
+	}
+	.card-buttons .btn-main {
+		margin-right: 12px;
+	}
+	.card-buttons .btn-main {
+		padding: 0 15px;
+	}
+	.price-card {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.page-portfolio .tab-container {
+		padding-top: 25px;
+	}
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
