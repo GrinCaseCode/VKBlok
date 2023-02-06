@@ -201,6 +201,7 @@ $(".menu-mobile .location-main__value").click(function() {
 		$(this).parent().parent().parent().find(".slider-portfolio").slick('setPosition');
 		$(this).parent().parent().parent().find(".slider-nav").slick('refresh');
 		$(this).parent().parent().parent().find(".slider-for").slick('refresh');
+		$(this).parent().parent().parent().find(".slider-clients").slick('refresh');
 		
 	}); 
 
@@ -213,6 +214,10 @@ $(".menu-mobile .location-main__value").click(function() {
 			});
 		}
 	}
+
+		$(".btn-main_filter").click(function() {
+		$(".sidebar-catalog").slideToggle(200);
+	});
 
 $(".lead-video").modalVideo();
 

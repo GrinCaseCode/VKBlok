@@ -235,6 +235,127 @@
 		line-height: 31px;
 		max-width: 390px;
 	}
+	.item-doc {
+		margin-top: 40px;
+	}
+	.page-documents .tabs {
+		max-width: 1040px;
+	}
+	.dealers-block .item-dropdown .title-small {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.partnership-block {
+		padding: 39px 60px;
+		padding-bottom: 45px;
+	}
+	.partnership-block__head {
+		font-size: 22px;
+		line-height: 31px;
+		margin-bottom: 20px;
+	}
+	.partnership-block ul {
+		margin-bottom: 30px;
+	}
+	.callback-block {
+		font-size: 33px;
+		line-height: 45px;
+		padding: 52px 15px;
+	}
+	.row_portfolio {
+		margin: 0 -20px;
+	}
+	.row_portfolio > div {
+		padding: 0 20px;
+		margin-bottom: 30px;
+	}
+	.item-portfolio__image {
+		height: 255px;
+	}
+	.billbord-about {
+		padding: 50px 60px;
+		height: 425px;
+	}
+	.advantages-about .row > div {
+		padding: 30px 30px;
+		padding-bottom: 45px;
+	}
+	.text-big {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.regions-about .text-big {
+		max-width: 480px;
+	}
+	.regions-about__image img {
+		max-width: 900px;
+	}
+	.regions-about__image {
+		margin-bottom: -73px;
+		margin-left: -33px;
+	}
+	.regions-about .title-section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.about-main {
+		line-height: 22px;
+		padding-left: 30px;
+	}
+	.about-main:nth-child(even) {
+		padding-right: 30px;
+	}
+	.about-main p {
+		margin-bottom: 15px;
+	}
+	.plans-info {
+		font-size: 22px;
+		line-height: 32px;
+		padding: 55px 35px;
+		padding-right: 20px;
+		margin-left: -15px;
+		padding-bottom: 0;
+	}
+	.plans-info__title {
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.plans-info__title sup {
+		font-size: 14px;
+	}
+	.plans-about ul {
+		font-size: 18px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.plans-about {
+		padding-top: 40px;
+		padding-bottom: 70px;
+		line-height: 23px;
+	}
+	.about-block {
+		line-height: 22px;
+	}
+	.row_materials {
+		padding: 0 15px;
+	}
+	.block-form.block-form_main {
+		padding: 24px 105px;
+		padding-bottom: 40px;
+	}
+	.item-sidebar {
+		font-size: 16px;
+		line-height: 30px;
+		padding: 15px 30px;
+	}
+	.checkbox_page {
+		font-size: 15px;
+		line-height: 21px;
+		margin-top: 18px;
+	}
+	.card-info {
+		line-height: 22px;
+	}
 }
 
 @media only screen and (max-width : 1300px) {
@@ -395,7 +516,158 @@
 		line-height: 28px;
 		max-width: 360px;
 	}
+	.page-documents .tabs {
+		max-width: 1020px;
+	}
+	.item-doc__icon {
+		width: 110px;
+		height: 110px;
+		font-size: 13px;
+		line-height: 20px;
+		margin-right: 20px;
+	}
+	.item-doc {
+		margin-top: 30px;
+	}
+	.dealers-block .item-dropdown .title-small {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.partnership-block {
+		padding: 30px 40px;
+		padding-bottom: 40px;
+	}
+	.partnership-block__head img {
+		margin-right: 15px;
+	}
+	.partnership-block__head {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+	.callback-block {
+		font-size: 30px;
+		line-height: 40px;
+		padding: 45px 15px;
+	}
+	.row_portfolio {
+		margin: 0 -15px;
+	}
+	.row_portfolio > div {
+		padding: 0 15px;
+		margin-bottom: 25px;
+	}
+	.item-portfolio__image {
+		height: 235px;
+	}
+	.item-portfolio__content {
+		padding: 15px 15px;
+		padding-bottom: 22px;
+	}
+	.item-portfolio .title-small {
+		margin-bottom: 20px;
+	}
+	.page-portfolio .portfolio-block {
+		margin-top: 22px;
+	}
+	.billbord-about__title {
+		font-size: 56px;
+		line-height: 81px;
+	}
+	.billbord-about {
+		padding: 35px 45px;
+		height: 385px;
+	}
+	.regions-about__image img {
+		max-width: 790px;
+	}
+	.title-block {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.regions-about .title-block {
+		margin-bottom: 20px;
+	}
+	.text-big {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.regions-about .text-big {
+		max-width: 435px;
+	}
+	.text-big p {
+		margin-bottom: 15px;
+	}
+	.about-main {
+		line-height: 20px;
+	}
+	.plans-about ul {
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 25px;
+	}
+	.plans-about {
+		padding-top: 30px;
+		padding-bottom: 55px;
+		line-height: 20px;
+	}
+	.plans-info {
+		font-size: 20px;
+		line-height: 30px;
+		padding: 30px 30px;
+		padding-right: 20px;
+		margin-left: -15px;
+		padding-bottom: 0;
+	}
+	.plans-info__title {
+		font-size: 26px;
+		line-height: 40px;
+	}
+	.block-form.block-form_main {
+		padding: 24px 70px;
+		padding-bottom: 40px;
+	}
+	.name-form {
+		font-size: 43px;
+		line-height: 70px;
+	}
+	.block-form_main .descr-form {
+		padding-bottom: 24px;
+	}
+	.item-sidebar {
+		font-size: 15px;
+		line-height: 26px;
+		padding: 15px 20px;
+	}
+	.item-filter {
+		padding: 15px 20px;
+	}
+	.checkbox_page label span {
+		padding: 2px 0 0 30px;
+	}
+	.checkbox_page {
+		font-size: 14px;
+		line-height: 20px;
+		margin-top: 15px;
+	}
+	.card-info {
+		line-height: 20px;
+	}
+	.card-info p {
+		margin-bottom: 15px;
+	}
+	.image-card {
+		height: 345px;
+	}
+	.card-block .title-block {
+		padding-bottom: 15px;
+	}
+	.price-card {
+		margin-top: 24px;
+		margin-bottom: 17px;
+	}
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.social-title {
@@ -692,6 +964,126 @@
 		font-size: 18px;
 		line-height: 25px;
 		max-width: 330px;
+	}
+	.page-documents .tabs {
+		max-width: 800px;
+	}
+	.item-doc__icon {
+		width: 90px;
+		height: 90px;
+		font-size: 12px;
+		line-height: 18px;
+		margin-right: 14px;
+	}
+	.item-doc img {
+		max-width: 35px;
+		max-height: 35px;
+		margin-bottom: 6px;
+	}
+	.item-doc {
+		font-size: 13px;
+	}
+	.page-documents {
+		padding-bottom: 70px;
+	}
+	.dealers-block .item-dropdown .title-small {
+		font-size: 17px;
+		line-height: 26px;
+	}
+	#map-dealers {
+		height: 675px;
+	}
+	.page-dealers {
+		padding-bottom: 60px;
+	}
+	.callback-block {
+		font-size: 26px;
+		line-height: 35px;
+		padding: 40px 15px;
+	}
+	.row_portfolio {
+		margin: 0 -10px;
+	}
+	.row_portfolio > div {
+		padding: 0 10px;
+		margin-bottom: 25px;
+	}
+	.item-portfolio__image {
+		height: 200px;
+	}
+	.advantages-about .row > div {
+		padding: 25px 20px;
+		padding-bottom: 35px;
+	}
+	.title-block {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.regions-about__image img {
+		max-width: 710px;
+	}
+	.page-about {
+		padding-top: 25px;
+	}
+	.about-main {
+		line-height: 17px;
+		font-size: 12px;
+		padding-left: 20px;
+	}
+	.about-main p {
+		margin-bottom: 10px;
+	}
+	.about-main:nth-child(even) {
+		padding-right: 20px;
+	}
+	.plans-about ul {
+		font-size: 15px;
+		padding-top: 14px;
+		padding-bottom: 15px;
+	}
+	.plans-info__title {
+		font-size: 22px;
+		line-height: 35px;
+	}
+	.plans-info {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 30px 30px;
+		padding-right: 20px;
+		margin-left: -15px;
+		padding-bottom: 0;
+	}
+	.plans-info img {
+		margin-top: -52px;
+	}
+	.about-block {
+		padding: 24px 30px;
+		padding-bottom: 29px;
+		margin-bottom: 25px;
+		line-height: 20px;
+	}
+	.row_materials {
+		padding: 0;
+	}
+	.item-material__image {
+		width: 120px;
+		height: 120px;
+		margin-bottom: 10px;
+	}
+	.item-material {
+		margin-top: 6px;
+		margin-bottom: 25px;
+	}
+	.block-form.block-form_main {
+		padding: 24px 30px;
+		padding-bottom: 35px;
+	}
+	.name-form {
+		font-size: 36px;
+		line-height: 62px;
+	}
+	.card-block .feature span {
+		min-width: 50%;
 	}
 }
 
@@ -996,6 +1388,126 @@
 	.delivery {
 		padding-top: 20px;
 	}
+	.page-documents {
+		padding-bottom: 50px;
+	}
+	#map-dealers {
+		height: 460px;
+	}
+	.dealers-block .item-dropdown {
+		margin-left: 0;
+	}
+	.title-small_dealers {
+		padding: 20px;
+	}
+	.dealers-block .item-dropdown:last-child {
+		margin-bottom: 15px;
+	}
+	.dealers-dropdowns {
+		columns: 1;
+		margin-top: 15px;
+	}
+	.page-dealers {
+		padding-bottom: 40px;
+	}
+	.page-partnership .title-section {
+		padding-bottom: 20px;
+	}
+	.page-partnership {
+		padding-top: 21px;
+	}
+	.partnership-block ul {
+		margin-bottom: 20px;
+	}
+	.partnership-block {
+		min-height: initial;
+	}
+	.page-portfolio .tab-container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.billbord-about__title {
+		font-size: 42px;
+		line-height: 60px;
+	}
+	.billbord-about {
+		padding: 35px 35px;
+		height: 325px;
+	}
+	.advantages-about {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.advantages-about .row > div {
+		border: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.regions-about__right {
+		order: -1;
+	}
+	.regions-about__image img {
+		max-width: 100%;
+	}
+	.regions-about__image {
+		margin: 0;
+		margin-bottom: -40px;
+	}
+	.regions-about .text-big {
+		max-width: 100%;
+	}
+	.regions-about .title-section {
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.about-main {
+		line-height: 20px;
+		font-size: 14px;
+		padding: 0 !important;
+	}
+	.about-main p {
+		margin-bottom: 15px;
+	}
+	.about-main img {
+		width: 100%;
+	}
+	.about-main .row > div:first-child {
+		padding: 25px 45px;
+		padding-bottom: 20px;
+	}
+	.plans-info {
+		margin: 0;
+		margin-top: 20px;
+	}
+	.block-form_main .btn-main,
+	.block-form_main .item-form {
+		margin-bottom: 15px;
+	}
+	.sidebar-catalog {
+		display: none;
+		margin-bottom: 15px;
+	}
+	.btn-main_filter {
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 30px;
+	}
+	.card-block > .row > div {
+		padding-right: 15px;
+	}
+	.card-block > .row > div:first-child::before {
+		display: none;
+	}
+	.image-card {
+		margin-bottom: 20px;
+	}
+	.page-card {
+		padding-bottom: 35px;
+	}
+	.card-block > .row > div:last-child {
+		padding-left: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1202,6 +1714,72 @@
 	.article-billbord .title-section {
 		padding: 0 15px;
 	}
+	.page-documents .tabs {
+		margin-right: -15px;
+	}
+	.item-doc {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.dealers-block .item-dropdown__head {
+		padding: 15px 15px;
+	}
+	.dealers-block .item-dropdown__content {
+		padding: 15px;
+		padding-top: 0;
+	}
+	.callback-block {
+		font-size: 22px;
+		line-height: 32px;
+		padding: 30px 15px;
+		margin-top: 20px;
+	}
+	.page-portfolio {
+		padding-top: 20px;
+	}
+	.item-portfolio__image {
+		height: 260px;
+	}
+	.page-portfolio .tab-container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.billbord-about {
+		margin: 0 -15px;
+		min-height: 320px;
+		height: auto;
+	}
+	.billbord-about {
+		padding: 20px 15px;
+	}
+	.title-block {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.regions-about .title-block {
+		margin-bottom: 15px;
+	}
+	.text-big {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.page-about ~ .leads {
+		padding-top: 10px;
+	}
+	.billbord-about__title {
+		font-size: 37px;
+		line-height: 55px;
+	}
+	.title-middle {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.about-block ul {
+		columns: initial;
+	}
+	.page-catalog {
+		padding-bottom: 35px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1309,6 +1887,30 @@
 		font-size: 18px;
 		line-height: 24px;
 	}
+	.page-documents {
+		padding-top: 20px;
+	}
+	.page-documents .title-section {
+		padding-bottom: 20px;
+	}
+	.page-dealers .title-section {
+		padding-bottom: 20px;
+	}
+	.page-dealers {
+		padding-top: 22px;
+		padding-bottom: 30px;
+	}
+	.dealers-block .item-dropdown .title-small {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	#map-dealers {
+		height: 300px;
+	}
+	.wrapper-map {
+		padding: 0;
+	}
+
 }
 
 /* Custom, iPhone Retina */
@@ -1331,6 +1933,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) and (max-width : 992px) {
+	.row_page > div:nth-child(2n+1) .item-catalog,
 	.row_catalog > div:nth-child(2n+1) .item-catalog {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
@@ -1338,12 +1941,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.row_page > div:nth-child(3n+1) .item-catalog,
 	.row_catalog > div:nth-child(4n+1) .item-catalog {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
+	.sidebar-catalog,
 	.footer__content {
 		display: block !important;
 	}
+	.btn-main_filter,
 	.menu-mobile,
 	.btn-menu {
 		display: none !important;
