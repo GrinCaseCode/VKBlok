@@ -366,6 +366,8 @@
 	}
 }
 
+
+
 @media only screen and (max-width : 1300px) {
 	body {
 		font-size: 14px;
@@ -1101,6 +1103,12 @@
 	.card-block .feature span {
 		min-width: 50%;
 	}
+	.about-main__image {
+		flex: 0.7;
+	}
+	.clients-block .title-section {
+		padding-bottom: 30px;
+	}
 }
 
 
@@ -1538,6 +1546,16 @@
 	}
 	.item-payment {
 		margin-bottom: 25px;
+	}
+	.about-main__content {
+		display: block;
+		margin: 0;
+	}
+	.about-main__image {
+		padding: 0;
+	}
+	.about-main__text {
+		padding: 25px 20px;
 	}
 }
 
@@ -2011,6 +2029,19 @@
 		font-size: 25px;
 		line-height: 37px;
 	}
+	.page-portfolio .tab-container {
+		padding-top: 25px;
+	}
+	.item-payment__icon {
+		width: 100px;
+		height: 100px;
+		margin-right: 15px;
+		padding: 20px;
+	}
+	.delivery-info .title-middle {
+		font-size: 20px;
+		line-height: 29px;
+	}
 	.card-block {
 		padding: 15px;
 		padding-bottom: 25px;
@@ -2031,19 +2062,6 @@
 	.price-card {
 		margin-top: 20px;
 		margin-bottom: 20px;
-	}
-	.page-portfolio .tab-container {
-		padding-top: 25px;
-	}
-	.item-payment__icon {
-		width: 100px;
-		height: 100px;
-		margin-right: 15px;
-		padding: 15px;
-	}
-	.delivery-info .title-middle {
-		font-size: 20px;
-		line-height: 29px;
 	}
 }
 
